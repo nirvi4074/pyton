@@ -1,0 +1,7 @@
+n=int(input("enter a number"))
+a=int(input("enter 2 number for power"))
+p=1
+for i in range(0,a):
+  p=p*n
+  print(p)
+print("power:",p )
